@@ -1,5 +1,7 @@
 # Owli interface clone
 
+See the [product analysis and reconstruction PRD](docs/PRD.md) for observed Owli.pro behavior, requirements, and verification gaps.
+
 This is an independent, responsive implementation of the public Owli landing page and the route structure visible in its shipped web bundle. It is a **demo product** with a local backend and deterministic illustrative market data. The original dashboard requires sign-in, and its market API returns HTTP 401 without an account, so private screens and analytics cannot yet be verified against the live product.
 
 ## Run
